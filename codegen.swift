@@ -17,7 +17,6 @@ struct SVG: Codable {
     let viewBox: [String]
     let width: UInt
     let height: UInt
-    let path: String
 }
 
 extension String {
