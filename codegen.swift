@@ -33,6 +33,9 @@ extension String {
         if self == "subscript" {
             return "`subscript`"
         }
+        if self == "repeat" {
+            return "`repeat`"
+        }
         return self
     }
 }
